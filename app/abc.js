@@ -22,3 +22,9 @@ function doTryCatch() {
     var f = build;
   }
 }
+
+function checkIsEqual(a, b){
+  return a == b
+}
+
+checkIsEqual(10, "10")
