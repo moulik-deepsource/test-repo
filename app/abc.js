@@ -22,3 +22,8 @@ function doTryCatch() {
     var f = build;
   }
 }
+
+obj && obj.prop
+obj != null ? obj.prop : undefined
+obj && obj[key]
+obj != null ? obj[key] : undefined
