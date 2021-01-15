@@ -3,7 +3,8 @@
    "parser": "@babel/eslint-parser",
    "extends": [
       "eslint:recommended", 
-      "plugin:@typescript-eslint/recommended"
+      "plugin:@typescript-eslint/recommended",
+      "airbnb-base"
    ],
    "rules": {
       "curly": "error",
@@ -18,6 +19,13 @@
       "@babel/no-invalid-this": "error",
       "@babel/no-unused-expressions": "error",
       "@babel/object-curly-spacing": "error",
-      "@babel/semi": "error"
+      "@babel/semi": "error",
+      "generator-star-spacing": "error",
+      "array-bracket-spacing": "error",
+      "object-shorthand": "error",
+      "arrow-parens": "error",
+      "no-await-in-loop": "error",
+      "comma-dangle": "error",
+      "no-mixed-operators": [ "error"]
    }
 }
