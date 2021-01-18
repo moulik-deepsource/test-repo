@@ -1,6 +1,5 @@
 {
-   "plugins": ["@typescript-eslint", "@babel"],
-   "parser": "@babel/eslint-parser",
+   "plugins": ["@typescript-eslint"],
    "extends": [
       "eslint:recommended", 
       "plugin:@typescript-eslint/recommended",
@@ -15,11 +14,6 @@
       "no-extra-label": "error",
       "no-implicit-coercion": "error",
       "@typescript-eslint/explicit-member-acicessibility": "error",
-      "@babel/new-cap": "error",
-      "@babel/no-invalid-this": "error",
-      "@babel/no-unused-expressions": "error",
-      "@babel/object-curly-spacing": "error",
-      "@babel/semi": "error",
       "generator-star-spacing": "error",
       "array-bracket-spacing": "error",
       "object-shorthand": "error",
