@@ -3,7 +3,8 @@
    "extends": [
       "eslint:recommended", 
       "plugin:@typescript-eslint/recommended",
-      "airbnb-base"
+      "airbnb-base",
+      "@studiometa/eslint-config"
    ],
    "rules": {
       "curly": "error",
