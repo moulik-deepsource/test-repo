@@ -1,9 +1,13 @@
-let "string" = value
-
-switch(){
-    case 1: 
-        break;
-    case :
-        break;
-    default: console.log("Yeah I am here")
+let x = 4
+switch (x) {
+  case 1:
+    break
+  case 3:
+    break
+  default:
+    console.log('Yeah I am here')
+    if (x) console.log('yeahh')
+    while (x) {
+      x--
+    }
 }
