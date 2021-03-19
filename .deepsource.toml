@@ -16,6 +16,6 @@ enabled = true
   module_system = "commonjs"
   environment = ["nodejs"]
   dependency_file_paths = [
-  "app/"
+  "/app/"
   ]
   dialect = "typescript"
